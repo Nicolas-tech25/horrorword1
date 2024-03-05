@@ -9,7 +9,7 @@ export default function Cabecalho() {
       <div className="limitador">
         <h1>
           <Link href="/">
-            <Image src="/images/Logo(1).png" width={60} height={100} alt="" />
+            <Image src="/images/Logo(1).png" width={70} height={120} alt="" />
             HorrorWord
           </Link>
         </h1>
