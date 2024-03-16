@@ -1,5 +1,3 @@
-import Cabecalho from "@/components/ui/Cabecalho";
-import Destaque from "@/components/ui/Destaque";
 import Head from "next/head";
 import styled from "styled-components";
 export default function Home() {
@@ -17,8 +15,6 @@ export default function Home() {
         />
       </Head>
       <StyledHome>
-        <Cabecalho />
-        <Destaque />
         <h1>HorrorWord</h1>
       </StyledHome>
     </>
