@@ -4,19 +4,16 @@ export default function Destaque() {
   return (
     <>
       <StyledDestaque>
-        <div>
-          <h2>
-            O melhor serviço online para falar sobre seus filmes de terror
-            favoritos
-          </h2>
-        </div>
+        <h2>
+          O melhor serviço online para falar sobre seus filmes de terror
+          favoritos
+        </h2>
       </StyledDestaque>
     </>
   );
 }
 const StyledDestaque = styled.article`
-  div {
-    background-image: url("/images/Fundo-destaque.png");
-    width: 100%;
-  }
+  background-image: url("../../public/images/Fundo-destaque.png");
+  width: 100%;
+  height: 100%;
 `;
