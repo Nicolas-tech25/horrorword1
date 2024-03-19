@@ -1,3 +1,4 @@
+import Cabecalho from "@/components/Cabecalho";
 import Head from "next/head";
 import styled from "styled-components";
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         />
       </Head>
       <StyledHome>
+        <Cabecalho />
         <h1>HorrorWord</h1>
       </StyledHome>
     </>
